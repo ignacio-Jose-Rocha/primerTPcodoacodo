@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+#navbar{
+    
+    background-color: #e32323;
+}
+
+#titulo{
+    color: white;
+    font-size: 30px;
+}
+
+.tituloSection {
+    font-size: 20px; 
+    opacity: 0; 
+    transition: opacity 0.5s; 
+}
+
+.tituloSection.mostrar {
+    opacity: 1; 
+}
+
+#men{
+    font-size: 9px;
+    color: white;
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+pointer-events: auto;
+}
